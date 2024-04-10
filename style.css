@@ -1,0 +1,109 @@
+body{
+    background-color: rgba(13, 150, 13, 0.63);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#disPlay{
+    height: 20vh;
+    width: 30vw;
+    box-sizing: border-box;
+    border: 3px groove darkorange;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+input{
+    text-align: end;
+    height: 25px;
+    width: 200px;
+    border-radius: 7px;
+    margin-left: 140px;
+    border-color: rgb(6, 114, 6);
+}
+
+#btnStart{
+    margin-left: 165px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 60px;
+    background-color: gray;
+    border-radius: 5px;
+    border-color: grey;
+    color: antiquewhite;
+}
+
+#btnStop{
+    margin-left: 35px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 60px;
+    background-color: gray;
+    border-radius: 5px;
+    border-color: grey;
+    color: antiquewhite;
+}
+
+@media (max-width: 768px) {
+    body{
+        background-color: rgba(150, 125, 13, 0.63);
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    #disPlay{
+        height: 15vh;
+        width: 45vw;
+        box-sizing: border-box;
+        border: 3px groove darkorange;
+        border-radius: 30px;
+        margin-top: 40px;
+        margin-left: 85px;
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 10px;
+        padding-top: 35px;
+        font-size: 20px;
+    }
+    
+    input{
+        text-align: end;
+        height: 35px;
+        width: 220px;
+        border-radius: 10px;
+        margin-left: 70px;
+        font-size: 15px;
+        border-color: rgba(98, 114, 6, 0.822);
+    }
+    
+    #btnStart{
+        margin-left: 95px;
+        margin-top: 40px;
+        padding: 8px;
+        width: 70px;
+        background-color: gray;
+        border-radius: 10px;
+        border-color: grey;
+        color: antiquewhite;
+        font-size: 17px;
+    }
+    
+    #btnStop{
+        margin-left: 35px;
+        margin-top: 40px;
+        padding: 8px;
+        width: 70px;
+        background-color: gray;
+        border-radius: 10px;
+        border-color: grey;
+        color: antiquewhite;
+        font-size: 17px;
+    }
+    
+}
