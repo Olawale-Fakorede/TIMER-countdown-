@@ -1,5 +1,6 @@
 body{
-    background-color: rgba(13, 150, 13, 0.63);
+    background: url(download.jpeg);
+    background-size: cover;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,6 +17,7 @@ body{
     margin-bottom: 30px;
     text-align: center;
     padding-top: 60px;
+    color: snow;
 }
 
 input{
@@ -51,10 +53,12 @@ input{
 
 @media (max-width: 768px) {
     body{
-        background-color: rgba(150, 125, 13, 0.63);
+        background: url(download.jpeg);
+        background-size: cover;
         margin: 0;
-        padding: 0;
+        padding: auto;
         box-sizing: border-box;
+        height: 90vh;
     }
     
     #disPlay{
@@ -63,13 +67,14 @@ input{
         box-sizing: border-box;
         border: 3px groove darkorange;
         border-radius: 30px;
-        margin-top: 40px;
+        margin-top: 140px;
         margin-left: 85px;
         margin-bottom: 30px;
         text-align: center;
         padding: 10px;
         padding-top: 35px;
         font-size: 20px;
+        color: snow;
     }
     
     input{
